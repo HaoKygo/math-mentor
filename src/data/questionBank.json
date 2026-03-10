@@ -1,0 +1,28 @@
+[
+  {
+    "id": "q1",
+    "chapter": "函数",
+    "topic": "二次函数",
+    "difficulty": 2,
+    "type": "solve",
+    "content": "若 $x^2 - 5x + 6 = 0$，求 $x$ 的值。",
+    "answer": "2 或 3",
+    "solution_steps": ["因式分解：(x-2)(x-3)=0", "得 x=2 或 x=3"],
+    "hints": ["这道题考查因式分解", "尝试将左边写成 (x-a)(x-b) 的形式"],
+    "tags": ["高考常考"],
+    "est_time_sec": 120
+  },
+  {
+    "id": "q2",
+    "chapter": "三角函数",
+    "topic": "二倍角公式",
+    "difficulty": 3,
+    "type": "solve",
+    "content": "已知 $\\sin A = \\frac{3}{5}$，且 $A$ 为锐角，求 $\\sin 2A$。",
+    "answer": "24/25",
+    "solution_steps": ["用二倍角公式：sin 2A = 2 sinA cosA", "先求 cosA：cosA = √(1-sin²A) = 4/5", "sin 2A = 2 × 3/5 × 4/5 = 24/25"],
+    "hints": ["考查二倍角公式", "需要先求出 cosA 的值"],
+    "tags": ["易错题"],
+    "est_time_sec": 180
+  }
+]
